@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+.my-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav img {
+  width: 80px;
+  vertical-align: super;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  padding-bottom: 46px;
+  color: black;
+}
+
+header nav ul li a.active {
+  border-bottom: #0282f9 solid 5px;
+  color: #0282f9;
+}
+

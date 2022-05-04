@@ -1,0 +1,28 @@
+header{
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            width: 80px;
+            vertical-align: super;
+            padding: 20px 0;
+        }
+        ul{
+            display: flex;
+            li{
+                list-style-type: none;
+                padding: 0 10px;
+                a{
+                    text-decoration: none;
+                    padding-bottom: 46px;
+                    color: black;
+                }
+                a.active{
+                    border-bottom:#0282f9 solid 5px;
+                    color: #0282f9;
+                }
+            }
+        }
+    }
+}
