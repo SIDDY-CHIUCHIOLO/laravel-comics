@@ -15,6 +15,7 @@
         @yield('main-nav')
         @yield('main-single-card')
 
+
     </main>
 
     @include('partials.footer')

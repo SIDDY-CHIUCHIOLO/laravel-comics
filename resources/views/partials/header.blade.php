@@ -6,7 +6,7 @@
                 <a href="{{ route('guest-characters')}}" >CHARACTERS</a>
             </li>
             <li>
-                <a href="{{ url('/')}}" class="active">COMICS</a>
+                <a href="{{ route('guest-comics')}}" class="active">COMICS</a>
             </li>
             <li>
                 <a href="{{ route('guest-movies')}}" >MOVIES</a>

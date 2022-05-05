@@ -48,6 +48,42 @@ div.jumbotron {
   height: 400px;
 }
 
+div#contain-comic-book {
+  background-color: #0282f9;
+  position: relative;
+}
+div#contain-comic-book div.contain-img {
+  position: absolute;
+  top: -15rem;
+  left: 20%;
+}
+
+div#container-comic-book-details {
+  width: 60%;
+  margin: 0 auto;
+}
+div#container-comic-book-details div#details h3, div#container-comic-book-details div#details .h3 {
+  color: #003f5e;
+}
+div#container-comic-book-details div#details div#availability div.navbar {
+  background-color: #55ba59;
+  color: #bafd9c;
+  border-bottom: #003f5e solid 1px;
+}
+div#container-comic-book-details div#details div#availability div.navbar p {
+  margin: 0;
+}
+div#container-comic-book-details div#details div#availability .navbar-left {
+  width: 65%;
+}
+div#container-comic-book-details div#details div#availability .navbar-right {
+  width: 35%;
+  border-left: #003f5e solid 1px;
+}
+div#container-comic-book-details div#details div#availability .navbar-right span.arrow {
+  font-size: 0.6rem;
+}
+
 div#my-container-cards {
   background-color: black;
 }
@@ -84,6 +120,7 @@ div#my-container-cards .warpper-cards button {
 .contain-cards a {
   text-decoration: none;
   color: white;
+  font-weight: bold;
 }
 
 nav#main-nav-container {

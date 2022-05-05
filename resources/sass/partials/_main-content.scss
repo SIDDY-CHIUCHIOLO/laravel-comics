@@ -1,0 +1,38 @@
+div#contain-comic-book{
+    background-color: #0282f9;
+    position: relative;
+    div.contain-img{
+        position: absolute;
+        top: -15rem;
+        left: 20%;
+    }
+}
+div#container-comic-book-details{
+    width: 60%;
+    margin: 0 auto;
+    div#details{
+        h3{
+            color: #003f5e;
+        }
+        div#availability{
+            div.navbar{
+                background-color: #55ba59;
+                color: #bafd9c;
+                border-bottom: #003f5e solid 1px;
+                p{
+                    margin: 0;
+                }
+            }
+            .navbar-left{
+                width: 65%;
+            }
+            .navbar-right{
+                width: 35%;
+                border-left: #003f5e solid 1px;
+                span.arrow{
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+}

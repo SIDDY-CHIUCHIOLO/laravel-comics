@@ -13,10 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/comics', function () {
     $comics = config('comics');
     return view('guest.comics', ['comics' => $comics]);
-}) ->name('comics-page');
+}) ->name('guest-comics');
+
+Route::get('/comics/{id}', function ($id) {
+    $comicBookList = config('comics');
+    if( is_numeric($id) && $id >= 0 && $id < count($comicBookList)){
+        return view('guest.comicBook', ['comic' => $comicBookList[$id]]);
+    } else {
+        abort(403);
+    }
+}) ->name('guest-comicBook');
 
 Route::get('/characters', function () {
     return view('guest.characters');
