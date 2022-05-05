@@ -11,9 +11,9 @@
     @include('partials.header')
 
     <main>
-        @yield('main-jumbotron')
         @yield('main-cards')
         @yield('main-nav')
+        @yield('main-single-card')
 
     </main>
 

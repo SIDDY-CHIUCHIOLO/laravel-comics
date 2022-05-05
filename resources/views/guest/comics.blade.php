@@ -1,8 +1,5 @@
 @extends('layouts.app')
 
-@section('main-jumbotron')
-    <div class="jumbotron"></div>
-@endsection
 
 @section('main-cards')
     <div id="my-container-cards">
@@ -12,7 +9,7 @@
                     <div class="contain-img">
                         <img src="{{$comicsElement['thumb']}}" alt="">
                     </div>
-                    <h4>{{$comicsElement['series']}}</h4>
+                    <a href="{{ url('/')}}">{{$comicsElement['series']}}</a>
                 </div>
             @endforeach
             <button>LOAD MORE</button>
