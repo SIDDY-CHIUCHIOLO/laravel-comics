@@ -18,30 +18,168 @@ header nav {
   justify-content: space-between;
   align-items: center;
 }
-
 header nav img {
   width: 80px;
   vertical-align: super;
   padding: 20px 0;
 }
-
 header nav ul {
   display: flex;
 }
-
 header nav ul li {
   list-style-type: none;
   padding: 0 10px;
 }
-
 header nav ul li a {
   text-decoration: none;
   padding-bottom: 46px;
   color: black;
 }
-
 header nav ul li a.active {
   border-bottom: #0282f9 solid 5px;
   color: #0282f9;
 }
 
+div.jumbotron {
+  background-image: url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+div#my-container-cards {
+  background-color: black;
+}
+div#my-container-cards .warpper-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div#my-container-cards .warpper-cards button {
+  border: none;
+  color: white;
+  font-weight: bold;
+  background-color: #0282f9;
+  padding: 15px 60px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.contain-cards {
+  color: white;
+  width: 14%;
+  margin: 0 1%;
+  margin-top: 40px;
+}
+.contain-cards .contain-img {
+  width: 100%;
+  height: 160px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.contain-cards .contain-img img {
+  width: 100%;
+}
+
+nav#main-nav-container {
+  background-color: #0282f9;
+  height: 200px;
+}
+nav#main-nav-container .my-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav#main-nav-container .my-container ul {
+  display: flex;
+  align-items: center;
+}
+nav#main-nav-container .my-container ul li {
+  list-style: none;
+  margin: 20px;
+}
+nav#main-nav-container .my-container ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+nav#main-nav-container .my-container ul li a div {
+  width: 70px;
+  margin-right: 20px;
+}
+nav#main-nav-container .my-container ul li a div img {
+  width: 100%;
+}
+
+footer {
+  color: white;
+}
+footer #contain-footer-top {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+footer #contain-footer-top .footer-top {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer #contain-footer-top .footer-top nav {
+  display: flex;
+}
+footer #contain-footer-top .footer-top nav #first-nav-left ul li {
+  list-style-type: none;
+}
+footer #contain-footer-top .footer-top nav ul {
+  padding: 20px;
+}
+footer #contain-footer-top .footer-top nav ul h3 {
+  margin-bottom: 20px;
+}
+footer #contain-footer-top .footer-top nav ul li {
+  list-style-type: none;
+  color: #959595;
+  line-height: 25px;
+}
+footer #contain-footer-top .footer-top nav ul li a {
+  color: #959595;
+  text-decoration: none;
+  font-size: 15px;
+}
+footer #contain-footer-top .footer-top .my-container-img {
+  width: 45%;
+  height: 100%;
+  background-image: url("../img/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+footer #contain-footer-bottom {
+  background-color: #303030;
+  height: 100px;
+}
+footer #contain-footer-bottom .footer-bottom {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+footer #contain-footer-bottom .footer-bottom div {
+  display: flex;
+  align-items: center;
+}
+footer #contain-footer-bottom .footer-bottom div .button {
+  padding: 10px;
+  border: #0282f9 solid 2px;
+}
+footer #contain-footer-bottom .footer-bottom #social-footer {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+footer #contain-footer-bottom .footer-bottom #social-footer #footer-follow {
+  color: #0282f9;
+  font-weight: bold;
+}

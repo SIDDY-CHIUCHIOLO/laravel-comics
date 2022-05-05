@@ -1,0 +1,34 @@
+div#my-container-cards{
+    background-color: black;
+    .warpper-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        button{
+            border: none;
+            color: white;
+            font-weight: bold;
+            background-color: #0282f9;
+            padding: 15px 60px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+
+.contain-cards{
+    color:white;
+    width: calc(84% / 6);
+    margin:0 1%;
+    margin-top: 40px;
+    .contain-img{
+        width: 100%;
+        height: 160px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        img{
+            width: 100%;    
+        }
+    }
+}
