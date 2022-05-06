@@ -54,7 +54,7 @@ div#contain-comic-book {
 }
 div#contain-comic-book div.contain-img {
   position: absolute;
-  top: -15rem;
+  bottom: 1.5rem;
   left: 20%;
 }
 
@@ -82,6 +82,17 @@ div#container-comic-book-details div#details div#availability .navbar-right {
 }
 div#container-comic-book-details div#details div#availability .navbar-right span.arrow {
   font-size: 0.6rem;
+}
+
+div#contain-specific-details {
+  background-color: #f6f6f6;
+}
+div#contain-specific-details div.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+div#contain-specific-details div.wrapper p {
+  margin: 0;
 }
 
 div#my-container-cards {

@@ -14,7 +14,7 @@
         @yield('main-cards')
         @yield('main-nav')
         @yield('main-single-card')
-
+        @yield('main-comic-book')
 
     </main>
 
