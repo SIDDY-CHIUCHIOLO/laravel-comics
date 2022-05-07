@@ -41,7 +41,7 @@
                     <p class="me-5">Art_by:</p >
                     <div>
                         @foreach ($comic['artists'] as $element)
-                            <span class="text-primary fw-bold">{{$element}}</span>
+                            <span class="text-blue fw-bold">{{$element}}</span>
                         @endforeach
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                     <p class="me-5">Write_by:</p>
                     <div>
                         @foreach ($comic['writers'] as $element)
-                            <span class="text-primary fw-bold">{{$element}}</span>
+                            <span class="text-blue fw-bold">{{$element}}</span>
                         @endforeach
                     </div>
                 </div>
@@ -61,7 +61,7 @@
                 <hr>
                 <div class="d-flex justify-content-between">
                     <p>Write by:</p>
-                    <p class="text-primary fw-bold">{{$comic['series']}}</p>
+                    <p class="text-blue fw-bold">{{$comic['series']}}</p>
                 </div>
                 <hr>
                 <div class="d-flex justify-content-between">
@@ -77,4 +77,50 @@
             </div>
         </div>
     </div>
+
+    <nav id="main-nav-comic-book">
+        <div class="my-container">
+            <ul>
+                <li>
+                    <a href="{{ url('/')}}" >
+                        <p>DIGITAL COMICS</p>
+                        <div>
+                            <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="">
+                        </div>       
+                    </a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <a href="{{ url('/')}}" >
+                        <p>SHOP DC</p>
+                        <div>
+                            <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="{{ url('/')}}" >
+                        <p>COMIC SHOP LOCATOR</p>
+                        <div>
+                            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="{{ url('/')}}" >
+                        <p>SUBSCRIPTION</p>
+                        <div>
+                            <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="">
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 @endsection

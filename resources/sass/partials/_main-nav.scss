@@ -29,3 +29,48 @@ nav#main-nav-container{
         }
     }
 }
+
+nav#main-nav-comic-book{
+    background-color: #f6f6f6;
+    border: rgb(194, 194, 194) solid 1px;
+    height: 100px;
+    .my-container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        ul{
+            display: flex;
+            align-items: center;
+            margin: 0;
+            padding: 1rem;
+            border-left: rgb(194, 194, 194) solid 1px;
+            border-right: rgb(194, 194, 194) solid 1px;
+            height: 100%;
+            li{
+                list-style: none;
+                display: flex;
+                align-items: center;
+                height: 100%;
+                a{
+                    text-decoration: none;
+                    color: rgb(194, 194, 194);
+                    display: flex;
+                    align-items: center;
+                    font-weight: bold;
+                    p{
+                        margin: 0;
+                    }
+                    div{
+                        width: 40px;
+                        margin-left: 5rem;
+                        img{
+                            width: 100%;
+                            filter: contrast(50%);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

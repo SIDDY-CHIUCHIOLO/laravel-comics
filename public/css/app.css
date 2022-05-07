@@ -94,6 +94,9 @@ div#contain-specific-details div.wrapper {
 div#contain-specific-details div.wrapper p {
   margin: 0;
 }
+div#contain-specific-details div.wrapper .text-blue {
+  color: #4fc5ec;
+}
 
 div#my-container-cards {
   background-color: black;
@@ -166,6 +169,51 @@ nav#main-nav-container .my-container ul li a div img {
   width: 100%;
 }
 
+nav#main-nav-comic-book {
+  background-color: #f6f6f6;
+  border: rgb(194, 194, 194) solid 1px;
+  height: 100px;
+}
+nav#main-nav-comic-book .my-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav#main-nav-comic-book .my-container ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 1rem;
+  border-left: rgb(194, 194, 194) solid 1px;
+  border-right: rgb(194, 194, 194) solid 1px;
+  height: 100%;
+}
+nav#main-nav-comic-book .my-container ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+nav#main-nav-comic-book .my-container ul li a {
+  text-decoration: none;
+  color: rgb(194, 194, 194);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+nav#main-nav-comic-book .my-container ul li a p {
+  margin: 0;
+}
+nav#main-nav-comic-book .my-container ul li a div {
+  width: 40px;
+  margin-left: 5rem;
+}
+nav#main-nav-comic-book .my-container ul li a div img {
+  width: 100%;
+  filter: contrast(50%);
+}
+
 footer {
   color: white;
 }
@@ -173,7 +221,7 @@ footer #contain-footer-top {
   background-image: url(../img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  height: 450px;
 }
 footer #contain-footer-top .footer-top {
   height: 100%;

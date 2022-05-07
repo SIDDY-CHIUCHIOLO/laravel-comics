@@ -4,12 +4,13 @@
 @section('main-cards')
     <div id="my-container-cards">
         <div class="my-container warpper-cards">
-            @foreach ($comics as $comicsElement)
+
+            @foreach ($comics as $index => $comic)
                 <div class="contain-cards">
                     <div class="contain-img">
-                        <img src="{{$comicsElement['thumb']}}" alt="">
+                        <img src="{{$comic['thumb']}}" alt="">
                     </div>
-                    <a href="{{ url('/')}}">{{$comicsElement['series']}}</a>
+                    <a href="{{ url("comics/$index")}}">{{$comic['series']}}</a>
                 </div>
             @endforeach
             <button>LOAD MORE</button>
